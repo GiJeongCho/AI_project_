@@ -1,0 +1,32 @@
+
+{
+"EN": {
+    "female": {
+        "Anamika": {
+            "config_path": "/model/en/female/Anamika/config.json",
+            "ckpt_path": "/model/en/female/Anamika/G_0.pth"
+        },
+        "Danielle": {
+            "config_path": "/model/en/female/Danielle/config.json",
+            "ckpt_path": "/model/en/female/Danielle/G_0.pth"
+        },
+        "english_base": {
+            "config_path": "/model/en/female/english_base/config.json",
+            "ckpt_path": "/model/en/female/english_base/G_0.pth"
+        }
+
+    },
+    "male": {
+        "Ben_Tucker": {
+            "config_path": "/model/en/male/Ben_Tucker/config.json",
+            "ckpt_path": "/model/en/male/Ben_Tucker/G_0.pth"
+        },
+        "Mark_f_smith": {
+            "config_path": "/model/en/male/Mark_f_smith/config.json",
+            "ckpt_path": "/model/en/male/Mark_f_smith/G_0.pth"
+        }
+    }
+}
+
+}
+
