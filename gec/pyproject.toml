@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "gec"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+fastapi = ">=0.100.0"
+uvicorn = "^0.17.4"
+python-multipart = "^0.0.5"
+openai = "^0.27.2"
+gunicorn = "^20.1.0"
+httpx = "^0.23.3"
+pydantic = ">=2.0"
+nltk = "^3.8.1"
+rapidfuzz = ">=2.0.0"
+torch = {url = "https://download.pytorch.org/whl/cpu/torch-2.0.1%2Bcpu-cp310-cp310-linux_x86_64.whl"}
+stanza = "^1.5.0"
+spacy = ">=2.3,<=3.0.0"
+errant = "2.3.3"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.4.2"
+pytest-env = "^1.0.1"
+python-dotenv = "^1.0.0"
+pytest-mock = "^3.11.1"
+
+
+[tool.pytest.ini_options]
+env = ["SINGLE_MODE=1"]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

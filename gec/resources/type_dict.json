@@ -1,0 +1,45 @@
+{
+    "category": {
+        "WO": "Usage",
+        "CONJ": "Usage",
+        "PART": "Usage",
+        "ADV": "Usage",
+        "VERB": "Grammar",
+        "ADJ": "Grammar",
+        "NOUN": "Grammar",
+        "PREP": "Grammar",
+        "PRON": "Grammar",
+        "CONTR": "Grammar",
+        "DET": "Grammar",
+        "MORPH": "Grammar",
+        "NOUN:INFL": "Grammar",
+        "VERB:FORM": "Grammar",
+        "VERB:INFL": "Grammar",
+        "ADJ:FORM": "Grammar",
+        "NOUN:NUM": "Grammar",
+        "NOUN:POSS": "Grammar",
+        "VERB:SVA": "Grammar",
+        "VERB:TENSE": "Grammar",
+        "SPELL": "Mechanics",
+        "PUNCT": "Mechanics",
+        "ORTH": "Mechanics",
+        "OTHER": "Other"
+    },
+    "usage": [
+        "R:NOUN",
+        "R:PREP",
+        "U:NOUN",
+        "U:ADJ",
+        "U:PRON"
+    ],
+    "less_important": [
+        "R:SPELL",
+        "R:PUNCT",
+        "M:PUNCT",
+        "U:PUNCT",
+        "R:ORTH",
+        "R:OTHER",
+        "M:OTHER",
+        "U:OTHER"
+    ]
+}

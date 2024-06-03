@@ -1,0 +1,1997 @@
+{
+	"M:ADJ": {
+		"skill_name_en": "Missing Adjective",
+		"skill_name_kr": "형용사 추가",
+		"comment": "형용사가 누락되었습니다. 따라서 적절한 형용사 added_word가 추가되었습니다.",
+		"example_1": {
+			"before": "She can read music quickly than I can.",
+			"after": "She can read music more quickly than I can.",
+			"before_word_info": [],
+			"after_word_info": [
+				{
+					"word": "more",
+					"start_index": 19,
+					"end_index": 23
+				}
+			]
+		},
+		"example_2": {
+			"before": "Over the last years, I have grown a lot.",
+			"after": "Over the few last years, I have grown a lot.",
+			"before_word_info": [],
+			"after_word_info": [
+				{
+					"word": "few",
+					"start_index": 9,
+					"end_index": 12
+				}
+			]
+		}
+	},
+	"U:ADJ": {
+		"skill_name_en": "Unnecessary Adjective",
+		"skill_name_kr": "형용사 삭제",
+		"comment": "형용사 wrong_word는 필요 없거나 부적절해 보입니다. 불필요한 단어로 삭제되었습니다.",
+		"example_1": {
+			"before": "It's a tiny little kitten.",
+			"after": "It's a tiny kitten.",
+			"before_word_info": [
+				{
+					"word": "little",
+					"start_index": 12,
+					"end_index": 18
+				}
+			],
+			"after_word_info": []
+		},
+		"example_2": {
+			"before": "I want to communicate with other people from other countries.",
+			"after": "I want to communicate with people from other countries.",
+			"before_word_info": [
+				{
+					"word": "other",
+					"start_index": 27,
+					"end_index": 32
+				}
+			],
+			"after_word_info": []
+		}
+	},
+	"R:ADJ": {
+		"skill_name_en": "Replacing Adjective",
+		"skill_name_kr": "형용사 변경",
+		"comment": "형용사 wrong_word는 어색하거나 모호해 보입니다. 어울리는 단어로 변경되었습니다.",
+		"example_1": {
+			"before": "The road is very small.",
+			"after": "The road is very narrow.",
+			"before_word_info": [
+				{
+					"word": "small.",
+					"start_index": 17,
+					"end_index": 23
+				}
+			],
+			"after_word_info": [
+				{
+					"word": "narrow.",
+					"start_index": 17,
+					"end_index": 24
+				}
+			]
+		},
+		"example_2": {
+			"before": "I need much apples.",
+			"after": "I need many apples.",
+			"before_word_info": [
+				{
+					"word": "much",
+					"start_index": 7,
+					"end_index": 11
+				}
+			],
+			"after_word_info": [
+				{
+					"word": "many",
+					"start_index": 7,
+					"end_index": 11
+				}
+			]
+		}
+	},
+	"M:ADV": {
+		"skill_name_en": "Missing Adverb",
+		"skill_name_kr": "부사 추가",
+		"comment": "부사가 누락되었습니다. 따라서 적절한 부사 added_word가 추가되었습니다.",
+		"example_1": {
+			"before": "He wakes in the morning.",
+			"after": "He wakes up in the morning.",
+			"before_word_info": [],
+			"after_word_info": [
+				{
+					"word": "up",
+					"start_index": 9,
+					"end_index": 11
+				}
+			]
+		},
+		"example_2": {
+			"before": "Please speak in the library.",
+			"after": "Please speak quietly in the library.",
+			"before_word_info": [],
+			"after_word_info": [
+				{
+					"word": "quietly",
+					"start_index": 13,
+					"end_index": 20
+				}
+			]
+		}
+	},
+	"U:ADV": {
+		"skill_name_en": "Unnecessary Adverb",
+		"skill_name_kr": "부사 삭제",
+		"comment": "부사 wrong_word는 필요 없거나 부적절해 보입니다. 불필요한 단어로 삭제되었습니다.",
+		"example_1": {
+			"before": "They returned back home after the game.",
+			"after": "They returned home after the game.",
+			"before_word_info": [
+				{
+					"word": "back",
+					"start_index": 14,
+					"end_index": 18
+				}
+			],
+			"after_word_info": []
+		},
+		"example_2": {
+			"before": "The cake was highly delicious and sweet.",
+			"after": "The cake was delicious and sweet.",
+			"before_word_info": [
+				{
+					"word": "highly",
+					"start_index": 13,
+					"end_index": 19
+				}
+			],
+			"after_word_info": []
+		}
+	},
+	"R:ADV": {
+		"skill_name_en": "Replacing Adjective",
+		"skill_name_kr": "부사 변경",
+		"comment": "부사 wrong_word는 어색하거나 모호해 보입니다. 어울리는 단어로 변경되었습니다.",
+		"example_1": {
+			"before": "My old bed is not fairly comfortable.",
+			"after": "My old bed is not very comfortable.",
+			"before_word_info": [
+				{
+					"word": "fairly",
+					"start_index": 18,
+					"end_index": 24
+				}
+			],
+			"after_word_info": [
+				{
+					"word": "very",
+					"start_index": 18,
+					"end_index": 22
+				}
+			]
+		},
+		"example_2": {
+			"before": "I threw my ball away without cleaning it before.",
+			"after": "I threw my ball away without cleaning it beforehand.",
+			"before_word_info": [
+				{
+					"word": "before.",
+					"start_index": 41,
+					"end_index": 48
+				}
+			],
+			"after_word_info": [
+				{
+					"word": "beforehand.",
+					"start_index": 41,
+					"end_index": 52
+				}
+			]
+		}
+	},
+	"M:CONJ": {
+		"skill_name_en": "Missing Conjunction",
+		"skill_name_kr": "접속사 추가",
+		"comment": "접속사가 누락되었습니다. 따라서 적절한 접속사 added_word가 추가되었습니다.",
+		"example_1": {
+			"before": "I like apples bananas.",
+			"after": "I like apples and bananas.",
+			"before_word_info": [],
+			"after_word_info": [
+				{
+					"word": "and",
+					"start_index": 14,
+					"end_index": 17
+				}
+			]
+		},
+		"example_2": {
+			"before": "It was late, they continued to work.",
+			"after": "It was late, but they continued to work.",
+			"before_word_info": [],
+			"after_word_info": [
+				{
+					"word": "but",
+					"start_index": 13,
+					"end_index": 16
+				}
+			]
+		}
+	},
+	"U:CONJ": {
+		"skill_name_en": "Unnecessary Conjunction",
+		"skill_name_kr": "접속사 삭제",
+		"comment": "접속사 wrong_word는 필요 없거나 부적절해 보입니다. 불필요한 단어로 삭제되었습니다.",
+		"example_1": {
+			"before": "I like apples and bananas and tomatoes.",
+			"after": "I like apples, bananas, and tomatoes.",
+			"before_word_info": [
+				{
+					"word": "and",
+					"start_index": 14,
+					"end_index": 17
+				}
+			],
+			"after_word_info": []
+		},
+		"example_2": {
+			"before": "Choose one, orange or banana or strawberry.",
+			"after": "Choose one, orange, banana, or strawberry.",
+			"before_word_info": [
+				{
+					"word": "or",
+					"start_index": 19,
+					"end_index": 21
+				}
+			],
+			"after_word_info": []
+		}
+	},
+	"R:CONJ": {
+		"skill_name_en": "Replacing Conjunction",
+		"skill_name_kr": "접속사 변경",
+		"comment": "접속사 wrong_word는 어색하거나 모호해 보입니다. 어울리는 단어로 변경되었습니다.",
+		"example_1": {
+			"before": "I don't like either broccoli and beans.",
+			"after": "I don't like either broccoli or beans.",
+			"before_word_info": [
+				{
+					"word": "and",
+					"start_index": 29,
+					"end_index": 32
+				}
+			],
+			"after_word_info": [
+				{
+					"word": "or",
+					"start_index": 29,
+					"end_index": 31
+				}
+			]
+		},
+		"example_2": {
+			"before": "He loves both swimming but hiking in the mountains.",
+			"after": "He loves both swimming and hiking in the mountains.",
+			"before_word_info": [
+				{
+					"word": "but",
+					"start_index": 23,
+					"end_index": 26
+				}
+			],
+			"after_word_info": [
+				{
+					"word": "and",
+					"start_index": 23,
+					"end_index": 26
+				}
+			]
+		}
+	},
+	"M:DET": {
+		"skill_name_en": "Missing Determiner",
+		"skill_name_kr": "한정사 추가",
+		"comment": "한정사가 누락되었습니다. 따라서 적절한 한정사 added_word가 추가되었습니다.",
+		"example_1": {
+			"before": "Can you pass me salt, please?",
+			"after": "Can you pass me the salt, please?",
+			"before_word_info": [],
+			"after_word_info": [
+				{
+					"word": "the",
+					"start_index": 16,
+					"end_index": 19
+				}
+			]
+		},
+		"example_2": {
+			"before": "I want to buy car.",
+			"after": "I want to buy a car.",
+			"before_word_info": [],
+			"after_word_info": [
+				{
+					"word": "a",
+					"start_index": 14,
+					"end_index": 15
+				}
+			]
+		}
+	},
+	"U:DET": {
+		"skill_name_en": "Unnecessary Determiner",
+		"skill_name_kr": "한정사 삭제",
+		"comment": "한정사 wrong_word는 필요 없거나 부적절해 보입니다. 불필요한 단어로 삭제되었습니다.",
+		"example_1": {
+			"before": "He was sent to the prison for two years.",
+			"after": "He was sent to prison for two years.",
+			"before_word_info": [
+				{
+					"word": "the",
+					"start_index": 15,
+					"end_index": 18
+				}
+			],
+			"after_word_info": []
+		},
+		"example_2": {
+			"before": "The Amazon River is the largest river by discharge volume of the water.",
+			"after": "The Amazon River is the largest river by discharge volume of water.",
+			"before_word_info": [
+				{
+					"word": "the",
+					"start_index": 61,
+					"end_index": 64
+				}
+			],
+			"after_word_info": []
+		}
+	},
+	"R:DET": {
+		"skill_name_en": "Replacing Determiner",
+		"skill_name_kr": "한정사 변경",
+		"comment": "한정사 wrong_word는 어색하거나 모호해 보입니다. 어울리는 단어로 변경되었습니다.",
+		"example_1": {
+			"before": "I saw an cat.",
+			"after": "I saw a cat.",
+			"before_word_info": [
+				{
+					"word": "an",
+					"start_index": 6,
+					"end_index": 8
+				}
+			],
+			"after_word_info": [
+				{
+					"word": "a",
+					"start_index": 6,
+					"end_index": 7
+				}
+			]
+		},
+		"example_2": {
+			"before": "She ate much apples for breakfast.",
+			"after": "She ate many apples for breakfast.",
+			"before_word_info": [
+				{
+					"word": "much",
+					"start_index": 8,
+					"end_index": 12
+				}
+			],
+			"after_word_info": [
+				{
+					"word": "many",
+					"start_index": 8,
+					"end_index": 12
+				}
+			]
+		}
+	},
+	"M:NOUN": {
+		"skill_name_en": "Missing Noun",
+		"skill_name_kr": "명사 추가",
+		"comment": "명사가 누락되었습니다. 따라서 적절한 명사 added_word가 추가되었습니다.",
+		"example_1": {
+			"before": "Remember to wash before dinner.",
+			"after": "Remember to wash your hands before dinner.",
+			"before_word_info": [],
+			"after_word_info": [
+				{
+					"word": "hands",
+					"start_index": 22,
+					"end_index": 27
+				}
+			]
+		},
+		"example_2": {
+			"before": "When I go to the beach, I always bring to sit on.",
+			"after": "When I go to the beach, I always bring a towel to sit on.",
+			"before_word_info": [],
+			"after_word_info": [
+				{
+					"word": "a towel",
+					"start_index": 39,
+					"end_index": 46
+				}
+			]
+		}
+	},
+	"U:NOUN": {
+		"skill_name_en": "Unnecessary Noun",
+		"skill_name_kr": "명사 삭제",
+		"comment": "명사 wrong_word는 필요 없거나 부적절해 보입니다. 불필요한 단어로 삭제되었습니다.",
+		"example_1": {
+			"before": "Please input your PIN number into the ATM.",
+			"after": "Please input your PIN into the ATM.",
+			"before_word_info": [
+				{
+					"word": "number",
+					"start_index": 22,
+					"end_index": 28
+				}
+			],
+			"after_word_info": []
+		},
+		"example_2": {
+			"before": "The children went to the zoo and the children enjoyed seeing the animals.",
+			"after": "The children went to the zoo and enjoyed seeing the animals.",
+			"before_word_info": [
+				{
+					"word": "the children",
+					"start_index": 33,
+					"end_index": 45
+				}
+			],
+			"after_word_info": []
+		}
+	},
+	"R:NOUN": {
+		"skill_name_en": "Replacing Noun",
+		"skill_name_kr": "명사 변경",
+		"comment": "명사 wrong_word는 어색하거나 모호해 보입니다. 어울리는 단어로 변경되었습니다.",
+		"example_1": {
+			"before": "His apartment is bigger than her apartment.",
+			"after": "His apartment is bigger than hers.",
+			"before_word_info": [
+				{
+					"word": "apartment.",
+					"start_index": 33,
+					"end_index": 43
+				}
+			],
+			"after_word_info": [
+				{
+					"word": "hers.",
+					"start_index": 29,
+					"end_index": 34
+				}
+			]
+		},
+		"example_2": {
+			"before": "He put on his footgear for the hike.",
+			"after": "He put on his boots for the hike.",
+			"before_word_info": [
+				{
+					"word": "footgear",
+					"start_index": 14,
+					"end_index": 22
+				}
+			],
+			"after_word_info": [
+				{
+					"word": "boots",
+					"start_index": 14,
+					"end_index": 19
+				}
+			]
+		}
+	},
+	"M:PART": {
+		"skill_name_en": "Missing particle",
+		"skill_name_kr": "관사 추가",
+		"comment": "관사가 누락되었습니다. 따라서 적절한 관사 added_word가 추가되었습니다.",
+		"example_1": {
+			"before": "We need to cut on expenses.",
+			"after": "We need to cut back on expenses.",
+			"before_word_info": [],
+			"after_word_info": [
+				{
+					"word": "back",
+					"start_index": 15,
+					"end_index": 19
+				}
+			]
+		},
+		"example_2": {
+			"before": "She's been waiting him over an hour.",
+			"after": "She's been waiting for him for over an hour.",
+			"before_word_info": [],
+			"after_word_info": [
+				{
+					"word": "for",
+					"start_index": 19,
+					"end_index": 23
+				},
+				{
+					"word": "for",
+					"start_index": 27,
+					"end_index": 31
+				}
+			]
+		}
+	},
+	"U:PART": {
+		"skill_name_en": "Unncessary Particle",
+		"skill_name_kr": "관사 삭제",
+		"comment": "관사 wrong_word는 필요 없거나 부적절해 보입니다. 불필요한 단어로 삭제되었습니다.",
+		"example_1": {
+			"before": "It's good to see you, find about your new hairstyles.",
+			"after": "It's good to see you, find out about your new hairstyles.",
+			"before_word_info": [
+				{
+					"word": "find about",
+					"start_index": 22,
+					"end_index": 32
+				}
+			],
+			"after_word_info": [
+				{
+					"word": "find out",
+					"start_index": 22,
+					"end_index": 30
+				}
+			]
+		},
+		"example_2": {
+			"before": "She discussed about the issue for hours.",
+			"after": "She discussed the issue for hours.",
+			"before_word_info": [
+				{
+					"word": "about",
+					"start_index": 14,
+					"end_index": 19
+				}
+			],
+			"after_word_info": []
+		}
+	},
+	"R:PART": {
+		"skill_name_en": "Replacing Particle",
+		"skill_name_kr": "관사 변경",
+		"comment": "관사 wrong_word는 어색하거나 모호해 보입니다. 어울리는 단어로 변경되었습니다.",
+		"example_1": {
+			"before": "They agreed with the plan",
+			"after": "They agreed on the plan.",
+			"before_word_info": [
+				{
+					"word": "with",
+					"start_index": 12,
+					"end_index": 16
+				}
+			],
+			"after_word_info": [
+				{
+					"word": "on",
+					"start_index": 12,
+					"end_index": 14
+				}
+			]
+		},
+		"example_2": {
+			"before": "Let's think to the proposal and decide tomorrow.",
+			"after": "Let's think about the proposal and decide tomorrow.",
+			"before_word_info": [
+				{
+					"word": "to",
+					"start_index": 12,
+					"end_index": 14
+				}
+			],
+			"after_word_info": [
+				{
+					"word": "about",
+					"start_index": 12,
+					"end_index": 17
+				}
+			]
+		}
+	},
+	"M:PREP": {
+		"skill_name_en": "Missing Preposition",
+		"skill_name_kr": "전치사 추가",
+		"comment": "전치사가 누락되었습니다. 따라서 적절한 전치사 added_word가 추가되었습니다.",
+		"example_1": {
+			"before": "She's scared going out alone at night.",
+			"after": "She's scared of going out alone at night.",
+			"before_word_info": [],
+			"after_word_info": [
+				{
+					"word": "of",
+					"start_index": 13,
+					"end_index": 15
+				}
+			]
+		},
+		"example_2": {
+			"before": "She graduated college last year.",
+			"after": "She graduated from college last year.",
+			"before_word_info": [],
+			"after_word_info": [
+				{
+					"word": "from",
+					"start_index": 14,
+					"end_index": 18
+				}
+			]
+		}
+	},
+	"U:PREP": {
+		"skill_name_en": "Unnecessary Preposition",
+		"skill_name_kr": "전치사 삭제",
+		"comment": "전치사 wrong_word는 필요 없거나 부적절해 보입니다. 불필요한 단어로 삭제되었습니다.",
+		"example_1": {
+			"before": "She exited out of the building.",
+			"after": "She exited the building.",
+			"before_word_info": [
+				{
+					"word": "out of",
+					"start_index": 11,
+					"end_index": 17
+				}
+			],
+			"after_word_info": []
+		},
+		"example_2": {
+			"before": "She has a lot of to do before moving.",
+			"after": "She has a lot to do before moving.",
+			"before_word_info": [
+				{
+					"word": "of",
+					"start_index": 14,
+					"end_index": 16
+				}
+			],
+			"after_word_info": []
+		}
+	},
+	"R:PREP": {
+		"skill_name_en": "Replacing Preposition",
+		"skill_name_kr": "전치사 변경",
+		"comment": "전치사 wrong_word는 어색하거나 모호해 보입니다. 어울리는 단어로 변경되었습니다.",
+		"example_1": {
+			"before": "She is married with a dentist.",
+			"after": "She is married to a dentist.",
+			"before_word_info": [
+				{
+					"word": "with",
+					"start_index": 15,
+					"end_index": 19
+				}
+			],
+			"after_word_info": [
+				{
+					"word": "to",
+					"start_index": 15,
+					"end_index": 17
+				}
+			]
+		},
+		"example_2": {
+			"before": "They will follow up about the issue next week.",
+			"after": "They will follow up on the issue next week.",
+			"before_word_info": [
+				{
+					"word": "about",
+					"start_index": 20,
+					"end_index": 25
+				}
+			],
+			"after_word_info": [
+				{
+					"word": "on",
+					"start_index": 20,
+					"end_index": 22
+				}
+			]
+		}
+	},
+	"M:PRON": {
+		"skill_name_en": "Missing Pronoun",
+		"skill_name_kr": "대명사 추가",
+		"comment": "대명사가 누락되었습니다. 따라서 적절한 대명사 added_word가 추가되었습니다.",
+		"example_1": {
+			"before": "She went to visit aunt in New York.",
+			"after": "She went to visit her aunt in New York.",
+			"before_word_info": [],
+			"after_word_info": [
+				{
+					"word": "her",
+					"start_index": 18,
+					"end_index": 21
+				}
+			]
+		},
+		"example_2": {
+			"before": "Jane likes me more than likes me.",
+			"after": "Jane likes me more than she likes me.",
+			"before_word_info": [],
+			"after_word_info": [
+				{
+					"word": "she",
+					"start_index": 24,
+					"end_index": 27
+				}
+			]
+		}
+	},
+	"U:PRON": {
+		"skill_name_en": "Unncessary Pronoun",
+		"skill_name_kr": "대명사 삭제",
+		"comment": "대명사 wrong_word는 필요 없거나 부적절해 보입니다. 불필요한 단어로 삭제되었습니다.",
+		"example_1": {
+			"before": "The man who was sitting next to me he had a brown jacket.",
+			"after": "The man who was sitting next to me had a brown jacket.",
+			"before_word_info": [
+				{
+					"word": "he",
+					"start_index": 35,
+					"end_index": 37
+				}
+			],
+			"after_word_info": []
+		},
+		"example_2": {
+			"before": "She did it herself alone.",
+			"after": "She did it alone.",
+			"before_word_info": [
+				{
+					"word": "herself",
+					"start_index": 11,
+					"end_index": 18
+				}
+			],
+			"after_word_info": []
+		}
+	},
+	"R:PRON": {
+		"skill_name_en": "Replacing Pronoun",
+		"skill_name_kr": "대명사 변경",
+		"comment": "대명사 wrong_word는 어색하거나 모호해 보입니다. 어울리는 단어로 변경되었습니다.",
+		"example_1": {
+			"before": "John is my friend and she is very kind.",
+			"after": "John is my friend and he is very kind.",
+			"before_word_info": [
+				{
+					"word": "she",
+					"start_index": 22,
+					"end_index": 25
+				}
+			],
+			"after_word_info": [
+				{
+					"word": "he",
+					"start_index": 22,
+					"end_index": 24
+				}
+			]
+		},
+		"example_2": {
+			"before": "I taught me how to bake a cake.",
+			"after": "I taught myself how to bake a cake.",
+			"before_word_info": [
+				{
+					"word": "me",
+					"start_index": 9,
+					"end_index": 11
+				}
+			],
+			"after_word_info": [
+				{
+					"word": "myself",
+					"start_index": 9,
+					"end_index": 15
+				}
+			]
+		}
+	},
+	"M:PUNCT": {
+		"skill_name_en": "Missing Punctuation",
+		"skill_name_kr": "문장부호 추가",
+		"comment": "문장부호가 누락되었습니다. added_word으로 적절한 문장부호가 추가되었습니다.",
+		"example_1": {
+			"before": "My favorite song is Over the Rainbow.",
+			"after": "My favorite song is \"Over the Rainbow.\"",
+			"before_word_info": [
+				{
+					"word": "Over the Rainbow.",
+					"start_index": 20,
+					"end_index": 37
+				}
+			],
+			"after_word_info": [
+				{
+					"word": "\"Over the Rainbow.\"",
+					"start_index": 20,
+					"end_index": 39
+				}
+			]
+		},
+		"example_2": {
+			"before": "We bought apples oranges and bananas.",
+			"after": "We bought apples, oranges, and bananas.",
+			"before_word_info": [
+				{
+					"word": "apples oranges",
+					"start_index": 10,
+					"end_index": 24
+				}
+			],
+			"after_word_info": [
+				{
+					"word": "apples, oranges,",
+					"start_index": 10,
+					"end_index": 26
+				}
+			]
+		}
+	},
+	"U:PUNCT": {
+		"skill_name_en": "Unnecessary Punctuation",
+		"skill_name_kr": "문장부호 삭제",
+		"comment": "wrong_word는 문장부호가 필요 없거나 부적절해 보입니다. 불필요하므로 삭제되었습니다.",
+		"example_1": {
+			"before": "She opened the door, and walked to her car.",
+			"after": "She opened the door and walked to her car.",
+			"before_word_info": [
+				{
+					"word": "door,",
+					"start_index": 15,
+					"end_index": 20
+				}
+			],
+			"after_word_info": [
+				{
+					"word": "door",
+					"start_index": 15,
+					"end_index": 19
+				}
+			]
+		},
+		"example_2": {
+			"before": "A lot of great music was created in the 80's.",
+			"after": "A lot of great music was created in the 80s.",
+			"before_word_info": [
+				{
+					"word": "80's.",
+					"start_index": 40,
+					"end_index": 45
+				}
+			],
+			"after_word_info": [
+				{
+					"word": "80s.",
+					"start_index": 40,
+					"end_index": 44
+				}
+			]
+		}
+	},
+	"R:PUNCT": {
+		"skill_name_en": "Replacing Punctuation",
+		"skill_name_kr": "문장부호 변경",
+		"comment": "wrong_word는 문장부호가 어색하거나 모호해 보입니다. 다른 문장부호로 변경되었습니다.",
+		"example_1": {
+			"before": "She loves reading, she goes to the library often.",
+			"after": "She loves reading; she goes to the library often.",
+			"before_word_info": [
+				{
+					"word": "reading,",
+					"start_index": 10,
+					"end_index": 18
+				}
+			],
+			"after_word_info": [
+				{
+					"word": "reading;",
+					"start_index": 10,
+					"end_index": 18
+				}
+			]
+		},
+		"example_2": {
+			"before": "He bought some items. Such as a tent, bag, and a backpack.",
+			"after": "He bought some items, such as a tent, bag, and a backpack.",
+			"before_word_info": [
+				{
+					"word": "items. Such",
+					"start_index": 15,
+					"end_index": 26
+				}
+			],
+			"after_word_info": [
+				{
+					"word": "items, such",
+					"start_index": 15,
+					"end_index": 26
+				}
+			]
+		}
+	},
+	"M:VERB": {
+		"skill_name_en": "Missing Verb",
+		"skill_name_kr": "동사 추가",
+		"comment": "동사가 누락되었습니다. 따라서 적절한 동사 added_word가 추가되었습니다.",
+		"example_1": {
+			"before": "While she walking, she listened to music.",
+			"after": "While she was walking, she listened to music.",
+			"before_word_info": [],
+			"after_word_info": [
+				{
+					"word": "was",
+					"start_index": 10,
+					"end_index": 13
+				}
+			]
+		},
+		"example_2": {
+			"before": "It thirty minutes to go home.",
+			"after": "It takes thirty minutes to go home.",
+			"before_word_info": [],
+			"after_word_info": [
+				{
+					"word": "takes",
+					"start_index": 3,
+					"end_index": 8
+				}
+			]
+		}
+	},
+	"U:VERB": {
+		"skill_name_en": "Unncessary Verb",
+		"skill_name_kr": "동사 삭제",
+		"comment": "동사 wrong_word는 필요 없거나 부적절해 보입니다. 불필요하므로 삭제되었습니다.",
+		"example_1": {
+			"before": "If I will miss the train, I'll take the next one.",
+			"after": "If i miss the train, I'll take the next one.",
+			"before_word_info": [
+				{
+					"word": "will",
+					"start_index": 5,
+					"end_index": 9
+				}
+			],
+			"after_word_info": []
+		},
+		"example_2": {
+			"before": "It is rains a lot in July.",
+			"after": "It rains a lot in July,",
+			"before_word_info": [
+				{
+					"word": "is",
+					"start_index": 3,
+					"end_index": 5
+				}
+			],
+			"after_word_info": []
+		}
+	},
+	"R:VERB": {
+		"skill_name_en": "Replacing Verb",
+		"skill_name_kr": "동사 변경",
+		"comment": "동사 wrong_word는 어색하거나 모호해 보입니다. 어울리는 단어로 변경되었습니다.",
+		"example_1": {
+			"before": "He made one hundred marks.",
+			"after": "He scored one hundred marks.",
+			"before_word_info": [
+				{
+					"word": "made",
+					"start_index": 3,
+					"end_index": 7
+				}
+			],
+			"after_word_info": [
+				{
+					"word": "scored",
+					"start_index": 3,
+					"end_index": 9
+				}
+			]
+		},
+		"example_2": {
+			"before": "If it doesn't rain tomorrow, we would go to the beach.",
+			"after": "If it doesn't rain tomorrow, we will go to the beach.",
+			"before_word_info": [
+				{
+					"word": "would",
+					"start_index": 32,
+					"end_index": 37
+				}
+			],
+			"after_word_info": [
+				{
+					"word": "will",
+					"start_index": 32,
+					"end_index": 36
+				}
+			]
+		}
+	},
+	"M:CONTR": {
+		"skill_name_en": "Missing Contraction",
+		"skill_name_kr": "축약 추가",
+		"comment": "added_word으로 올바르게 축약되었습니다.",
+		"example_1": {
+			"before": "I knew you loved my story. Now I tell you about it.",
+			"after": "I knew you loved my story. Now I'll tell you about it.",
+			"before_word_info": [
+				{
+					"word": "I tell",
+					"start_index": 31,
+					"end_index": 37
+				}
+			],
+			"after_word_info": [
+				{
+					"word": "I'll tell",
+					"start_index": 31,
+					"end_index": 40
+				}
+			]
+		},
+		"example_2": {
+			"before": "Its a long way from here.",
+			"after": "It's a long way from here.",
+			"before_word_info": [
+				{
+					"word": "Its",
+					"start_index": 0,
+					"end_index": 3
+				}
+			],
+			"after_word_info": [
+				{
+					"word": "It's",
+					"start_index": 0,
+					"end_index": 4
+				}
+			]
+		}
+	},
+	"U:CONTR": {
+		"skill_name_en": "Unnecessary Contraction",
+		"skill_name_kr": "축약 삭제",
+		"comment": "wrong_word는 축약이 불필요해 보이므로, 삭제되었습니다.",
+		"example_1": {
+			"before": "There's many reasons to support this argument.",
+			"after": "There are many reasons to support this argument.",
+			"before_word_info": [
+				{
+					"word": "There's",
+					"start_index": 0,
+					"end_index": 7
+				}
+			],
+			"after_word_info": [
+				{
+					"word": "There are",
+					"start_index": 0,
+					"end_index": 9
+				}
+			]
+		},
+		"example_2": {
+			"before": "Let's go back to you're place.",
+			"after": "Let's go back to your place.",
+			"before_word_info": [
+				{
+					"word": "you're",
+					"start_index": 17,
+					"end_index": 23
+				}
+			],
+			"after_word_info": [
+				{
+					"word": "your",
+					"start_index": 17,
+					"end_index": 21
+				}
+			]
+		}
+	},
+	"R:CONTR": {
+		"skill_name_en": "Replacing Contraction",
+		"skill_name_kr": "축약 변경",
+		"comment": "wrong_word는 축약이 어색하거나 부적절하므로, 올바르게 변경되었습니다.",
+		"example_1": {
+			"before": "The dog wagged it's tail.",
+			"after": "The dog wagged its tail.",
+			"before_word_info": [
+				{
+					"word": "it's",
+					"start_index": 15,
+					"end_index": 19
+				}
+			],
+			"after_word_info": [
+				{
+					"word": "its",
+					"start_index": 15,
+					"end_index": 18
+				}
+			]
+		},
+		"example_2": {
+			"before": "You shouldn't play computer games now, shouldn't you?",
+			"after": "You shouldn't play computer games now, should you?",
+			"before_word_info": [
+				{
+					"word": "n't",
+					"start_index": 45,
+					"end_index": 48
+				}
+			],
+			"after_word_info": [
+				{
+					"word": "should",
+					"start_index": 39,
+					"end_index": 45
+				}
+			]
+		}
+	},
+	"R:MORPH": {
+		"skill_name_en": "Replacing Morphology",
+		"skill_name_kr": "형태 오류",
+		"comment": "wrong_word의 형태가 올바르지 않습니다. 올바른 형태로 변경되었습니다.",
+		"example_1": {
+			"before": "The broke vase is on the table.",
+			"after": "The broken vase is on the table.",
+			"before_word_info": [
+				{
+					"word": "broke",
+					"start_index": 4,
+					"end_index": 9
+				}
+			],
+			"after_word_info": [
+				{
+					"word": "broken",
+					"start_index": 4,
+					"end_index": 10
+				}
+			]
+		},
+		"example_2": {
+			"before": "Can you move it careful? It's fragile.",
+			"after": "Can you move it carefully? It's fragile.",
+			"before_word_info": [
+				{
+					"word": "careful",
+					"start_index": 16,
+					"end_index": 23
+				}
+			],
+			"after_word_info": [
+				{
+					"word": "carefully",
+					"start_index": 16,
+					"end_index": 25
+				}
+			]
+		}
+	},
+	"R:ORTH": {
+		"skill_name_en": "Replacing Orthography",
+		"skill_name_kr": "대소문자, 공백 오류",
+		"comment": "대소문자가 구분되지 않았거나 공백 오류가 있습니다. added_word으로 올바르게 변경되었습니다.",
+		"example_1": {
+			"before": "It's a lot of fun to travel to america.",
+			"after": "It's a lot of fun to travel to America.",
+			"before_word_info": [
+				{
+					"word": "america.",
+					"start_index": 31,
+					"end_index": 39
+				}
+			],
+			"after_word_info": [
+				{
+					"word": "America.",
+					"start_index": 31,
+					"end_index": 39
+				}
+			]
+		},
+		"example_2": {
+			"before": "She gave him a birth day card and a giftwrap.",
+			"after": "She gave him a birthday card and gift wrap.",
+			"before_word_info": [
+				{
+					"word": "birth day",
+					"start_index": 15,
+					"end_index": 24
+				},
+				{
+					"word": "giftwrap.",
+					"start_index": 36,
+					"end_index": 45
+				}
+			],
+			"after_word_info": [
+				{
+					"word": "birthday",
+					"start_index": 15,
+					"end_index": 23
+				},
+				{
+					"word": "gift wrap.",
+					"start_index": 33,
+					"end_index": 43
+				}
+			]
+		}
+	},
+	"M:OTHER": {
+		"skill_name_en": "Missing Other",
+		"skill_name_kr": "기타 오류",
+		"comment": "올바른 문장이 되도록 added_word가 추가되었습니다.",
+		"example_1": {
+			"before": "This is the book that everyong is talking.",
+			"after": "This is the book that everyone is talking about.",
+			"before_word_info": [
+				{
+					"word": "talking.",
+					"start_index": 34,
+					"end_index": 42
+				}
+			],
+			"after_word_info": [
+				{
+					"word": "talking about.",
+					"start_index": 34,
+					"end_index": 48
+				}
+			]
+		},
+		"example_2": {
+			"before": "If you can learn a lot and you're good at, you'll also earn some money.",
+			"after": "If you can learn a lot and you're good at it, you'll also earn some money.",
+			"before_word_info": [],
+			"after_word_info": [
+				{
+					"word": "it,",
+					"start_index": 42,
+					"end_index": 45
+				}
+			]
+		}
+	},
+	"U:OTHER": {
+		"skill_name_en": "Unncessary Other",
+		"skill_name_kr": "기타 오류",
+		"comment": "wrong_word가 필요 없거나 부적절해 보입니다. 불필요하므로 삭제되었습니다.",
+		"example_1": {
+			"before": "What a beautiful is the sunset!",
+			"after": "What a beautiful sunset!",
+			"before_word_info": [
+				{
+					"word": "is the",
+					"start_index": 17,
+					"end_index": 23
+				}
+			],
+			"after_word_info": []
+		},
+		"example_2": {
+			"before": "This is the way how I did it.",
+			"after": "This is how I did it.",
+			"before_word_info": [
+				{
+					"word": "the way",
+					"start_index": 8,
+					"end_index": 15
+				}
+			],
+			"after_word_info": []
+		}
+	},
+	"R:OTHER": {
+		"skill_name_en": "Replacing Other",
+		"skill_name_kr": "표현 개선",
+		"comment": "wrong_word가 어색하거나 모호해 보입니다. added_word으로 변경되었습니다.",
+		"example_1": {
+			"before": "The box was small if heavy.",
+			"after": "The box was small but heavy.",
+			"before_word_info": [
+				{
+					"word": "if",
+					"start_index": 18,
+					"end_index": 20
+				}
+			],
+			"after_word_info": [
+				{
+					"word": "but",
+					"start_index": 18,
+					"end_index": 21
+				}
+			]
+		},
+		"example_2": {
+			"before": "That's not mine book. It's yours.",
+			"after": "That's not my book. It's yours.",
+			"before_word_info": [
+				{
+					"word": "mine",
+					"start_index": 11,
+					"end_index": 15
+				}
+			],
+			"after_word_info": [
+				{
+					"word": "my",
+					"start_index": 11,
+					"end_index": 13
+				}
+			]
+		}
+	},
+	"R:SPELL": {
+		"skill_name_en": "Replacing Spelling",
+		"skill_name_kr": "철자 오류",
+		"comment": "wrong_word의 철자가 잘못되었습니다. 올바르게 변경되었습니다.",
+		"example_1": {
+			"before": "I believe love will change the way of our lifes.",
+			"after": "I believe love will change the way of our lives.",
+			"before_word_info": [
+				{
+					"word": "lifes.",
+					"start_index": 42,
+					"end_index": 48
+				}
+			],
+			"after_word_info": [
+				{
+					"word": "lives.",
+					"start_index": 42,
+					"end_index": 48
+				}
+			]
+		},
+		"example_2": {
+			"before": "She accidently dropped the glass.",
+			"after": "She accidentally dropped the glass.",
+			"before_word_info": [
+				{
+					"word": "accidently",
+					"start_index": 4,
+					"end_index": 14
+				}
+			],
+			"after_word_info": [
+				{
+					"word": "accidentally",
+					"start_index": 4,
+					"end_index": 16
+				}
+			]
+		}
+	},
+	"R:WO": {
+		"skill_name_en": "Replacing Word Order",
+		"skill_name_kr": "단어 순서 오류",
+		"comment": "단어의 순서가 올바르지 않습니다. 올바른 위치에 오도록 added_word으로 변경되었습니다.",
+		"example_1": {
+			"before": "She has a new red small car.",
+			"after": "She has a small red new car.",
+			"before_word_info": [
+				{
+					"word": "red small",
+					"start_index": 14,
+					"end_index": 23
+				}
+			],
+			"after_word_info": [
+				{
+					"word": "small red",
+					"start_index": 10,
+					"end_index": 19
+				}
+			]
+		},
+		"example_2": {
+			"before": "She does always her homework on time.",
+			"after": "She always does her homework on time.",
+			"before_word_info": [
+				{
+					"word": "does always",
+					"start_index": 4,
+					"end_index": 15
+				}
+			],
+			"after_word_info": [
+				{
+					"word": "always does",
+					"start_index": 4,
+					"end_index": 15
+				}
+			]
+		}
+	},
+	"R:ADJ:FORM": {
+		"skill_name_en": "Replacing Adjective Form",
+		"skill_name_kr": "형용사 형태 오류",
+		"comment": "형용사 wrong_word의 형태가 올바르지 않습니다, 올바른 형태로 변경되었습니다.",
+		"example_1": {
+			"before": "Joe is tall than his sister.",
+			"after": "Joe is taller than his sister.",
+			"before_word_info": [
+				{
+					"word": "tall",
+					"start_index": 7,
+					"end_index": 11
+				}
+			],
+			"after_word_info": [
+				{
+					"word": "taller",
+					"start_index": 7,
+					"end_index": 13
+				}
+			]
+		},
+		"example_2": {
+			"before": "I wanted to have fun with my family, but it was worse dinner of my life.",
+			"after": "I wanted to have fun with my family, but it was worst dinner of my life.",
+			"before_word_info": [
+				{
+					"word": "worse",
+					"start_index": 48,
+					"end_index": 53
+				}
+			],
+			"after_word_info": [
+				{
+					"word": "worst",
+					"start_index": 48,
+					"end_index": 53
+				}
+			]
+		}
+	},
+	"R:NOUN:INFL": {
+		"skill_name_en": "Replacing Noun Inflection",
+		"skill_name_kr": "가산/불가산 명사 오류",
+		"comment": "셀 수 있는 명사와 셀 수 없는 명사 형태의 오류입니다. 올바른 형태 added_word으로 변경되었습니다.",
+		"example_1": {
+			"before": "She has interesting informations to share.",
+			"after": "She has interesting information to share.",
+			"before_word_info": [
+				{
+					"word": "informations",
+					"start_index": 20,
+					"end_index": 32
+				}
+			],
+			"after_word_info": [
+				{
+					"word": "information",
+					"start_index": 20,
+					"end_index": 31
+				}
+			]
+		},
+		"example_2": {
+			"before": "Many campers do a lot of campings in the spring and fall seasons.",
+			"after": "Many campers do a lot of camping in the spring and fall seasons.",
+			"before_word_info": [
+				{
+					"word": "campings",
+					"start_index": 25,
+					"end_index": 33
+				}
+			],
+			"after_word_info": [
+				{
+					"word": "camping",
+					"start_index": 25,
+					"end_index": 32
+				}
+			]
+		}
+	},
+	"M:NOUN:POSS": {
+		"skill_name_en": "Missing Noun Possessive",
+		"skill_name_kr": "명사의 소유격 추가",
+		"comment": "알맞은 소유격 형태가 되도록 added_word가 추가되었습니다.",
+		"example_1": {
+			"before": "It's the right thing to respect older people lives.",
+			"after": "It's the right thing to respect older people's lives.",
+			"before_word_info": [
+				{
+					"word": "people",
+					"start_index": 38,
+					"end_index": 44
+				}
+			],
+			"after_word_info": [
+				{
+					"word": "people's",
+					"start_index": 38,
+					"end_index": 46
+				}
+			]
+		},
+		"example_2": {
+			"before": "Peter mom is a teacher.",
+			"after": "Peter's mom is a teacher.",
+			"before_word_info": [
+				{
+					"word": "Peter",
+					"start_index": 0,
+					"end_index": 5
+				}
+			],
+			"after_word_info": [
+				{
+					"word": "Peter's",
+					"start_index": 0,
+					"end_index": 7
+				}
+			]
+		}
+	},
+	"U:NOUN:POSS": {
+		"skill_name_en": "Unnecessary Noun Possesive",
+		"skill_name_kr": "명사의 소유격 삭제",
+		"comment": "wrong_word의 소유격 형태가 필요 없거나 부적절해보이므로, 삭제되었습니다.",
+		"example_1": {
+			"before": "My family's members communicate a lot during dinner time.",
+			"after": "My family members communicate a lot during dinner time.",
+			"before_word_info": [
+				{
+					"word": "family's",
+					"start_index": 3,
+					"end_index": 11
+				}
+			],
+			"after_word_info": [
+				{
+					"word": "family",
+					"start_index": 3,
+					"end_index": 9
+				}
+			]
+		},
+		"example_2": {
+			"before": "The concert's tickets are sold out.",
+			"after": "The concert tickets are sold out.",
+			"before_word_info": [
+				{
+					"word": "concert's",
+					"start_index": 4,
+					"end_index": 13
+				}
+			],
+			"after_word_info": [
+				{
+					"word": "concert",
+					"start_index": 4,
+					"end_index": 11
+				}
+			]
+		}
+	},
+	"R:NOUN:POSS": {
+		"skill_name_en": "Replacing Noun Possesive",
+		"skill_name_kr": "명사의 소유격 변경",
+		"comment": "wrong_word의 소유격 형태가 어색하거나 부적절해보이므로, 올바르게 변경되었습니다.",
+		"example_1": {
+			"before": "The childrens' playground is new.",
+			"after": "The children's playground is new.",
+			"before_word_info": [
+				{
+					"word": "childrens'",
+					"start_index": 4,
+					"end_index": 14
+				}
+			],
+			"after_word_info": [
+				{
+					"word": "children's",
+					"start_index": 4,
+					"end_index": 14
+				}
+			]
+		},
+		"example_2": {
+			"before": "The table's leg is broken.",
+			"after": "The leg of the table is broken.",
+			"before_word_info": [
+				{
+					"word": "table's leg",
+					"start_index": 4,
+					"end_index": 15
+				}
+			],
+			"after_word_info": [
+				{
+					"word": "leg of the table",
+					"start_index": 4,
+					"end_index": 20
+				}
+			]
+		}
+	},
+	"M:VERB:FORM": {
+		"skill_name_en": "Missing Verb From",
+		"skill_name_kr": "동명사/to 부정사 추가",
+		"comment": "알맞은 동명사/부정사가 되도록 added_word가 추가되었습니다.",
+		"example_1": {
+			"before": "He had a dream that was be a superhero.",
+			"after": "He had a dream that was to be a superhero.",
+			"before_word_info": [
+				{
+					"word": "be",
+					"start_index": 24,
+					"end_index": 26
+				}
+			],
+			"after_word_info": [
+				{
+					"word": "to be",
+					"start_index": 24,
+					"end_index": 29
+				}
+			]
+		},
+		"example_2": {
+			"before": "Swimming is a relaxing activity for me, but children like disturbing me.",
+			"after": "Swimming is a relaxing activity for me, but children like to disturb me.",
+			"before_word_info": [
+				{
+					"word": "disturbing",
+					"start_index": 58,
+					"end_index": 68
+				}
+			],
+			"after_word_info": [
+				{
+					"word": "to disturb",
+					"start_index": 58,
+					"end_index": 68
+				}
+			]
+		}
+	},
+	"U:VERB:FORM": {
+		"skill_name_en": "Unnecessary Verb Form",
+		"skill_name_kr": "동명사/to 부정사 삭제",
+		"comment": "동명사/부정사 wrong_word는 필요 없거나 부적절해 보입니다. 불필요한 단어로 삭제되었습니다.",
+		"example_1": {
+			"before": "I have learned a lot about many ways to find or to orientate myself.",
+			"after": "I have learned a lot about many ways to find or orientate myself.",
+			"before_word_info": [
+				{
+					"word": "to",
+					"start_index": 48,
+					"end_index": 50
+				}
+			],
+			"after_word_info": []
+		},
+		"example_2": {
+			"before": "I go and am finding it.",
+			"after": "I go and find it.",
+			"before_word_info": [
+				{
+					"word": "am finding",
+					"start_index": 9,
+					"end_index": 19
+				}
+			],
+			"after_word_info": [
+				{
+					"word": "find",
+					"start_index": 9,
+					"end_index": 13
+				}
+			]
+		}
+	},
+	"R:VERB:FORM": {
+		"skill_name_en": "Replacing Verb Form",
+		"skill_name_kr": "동명사/to 부정사 변경",
+		"comment": "동명사/부정사 wrong_word는 어색하거나 모호해 보입니다. added_word으로 변경되었습니다.",
+		"example_1": {
+			"before": "I'm interested in to learn a new language.",
+			"after": "I'm interested in learning a new language.",
+			"before_word_info": [
+				{
+					"word": "to learn",
+					"start_index": 18,
+					"end_index": 26
+				}
+			],
+			"after_word_info": [
+				{
+					"word": "learning",
+					"start_index": 18,
+					"end_index": 26
+				}
+			]
+		},
+		"example_2": {
+			"before": "I'm sorry to have kept you waited.",
+			"after": "I'm sorry to have kept you waiting.",
+			"before_word_info": [
+				{
+					"word": "waited.",
+					"start_index": 27,
+					"end_index": 34
+				}
+			],
+			"after_word_info": [
+				{
+					"word": "waiting.",
+					"start_index": 27,
+					"end_index": 35
+				}
+			]
+		}
+	},
+	"R:VERB:INFL": {
+		"skill_name_en": "Replacing Verb Inflection",
+		"skill_name_kr": "동사 형태 오류",
+		"comment": "wrong_word의 동사 시제 형태가 올바르지 않습니다. 시제에 맞는 동사 형태 added_word으로 변경되었습니다.",
+		"example_1": {
+			"before": "The boys start their adventure on stoping them.",
+			"after": "The boys start their adventure on stopping them.",
+			"before_word_info": [
+				{
+					"word": "stoping",
+					"start_index": 34,
+					"end_index": 41
+				}
+			],
+			"after_word_info": [
+				{
+					"word": "stopping",
+					"start_index": 34,
+					"end_index": 42
+				}
+			]
+		},
+		"example_2": {
+			"before": "She eated lunch an hour ago.",
+			"after": "She ate lunch an hour ago.",
+			"before_word_info": [
+				{
+					"word": "eated",
+					"start_index": 4,
+					"end_index": 9
+				}
+			],
+			"after_word_info": [
+				{
+					"word": "ate",
+					"start_index": 4,
+					"end_index": 7
+				}
+			]
+		}
+	},
+	"R:VERB:SVA": {
+		"skill_name_en": "Subjet-Verb Agreement",
+		"skill_name_kr": "주어-동사 수일치",
+		"comment": "주어와 wrong_word가 일치하지 않습니다. 단수 주어는 단수 동사, 복수 주어는 복수형 동사가 오도록 올바른 단어 added_word 변경되었습니다.",
+		"example_1": {
+			"before": "The list of items are on the desk.",
+			"after": "The list of items is on the desk.",
+			"before_word_info": [
+				{
+					"word": "are",
+					"start_index": 18,
+					"end_index": 21
+				}
+			],
+			"after_word_info": [
+				{
+					"word": "is",
+					"start_index": 18,
+					"end_index": 20
+				}
+			]
+		},
+		"example_2": {
+			"before": "Nobody know the answer.",
+			"after": "Nobody knows the answer.",
+			"before_word_info": [
+				{
+					"word": "know",
+					"start_index": 7,
+					"end_index": 11
+				}
+			],
+			"after_word_info": [
+				{
+					"word": "knows",
+					"start_index": 7,
+					"end_index": 12
+				}
+			]
+		}
+	},
+	"M:VERB:TENSE": {
+		"skill_name_en": "Missing Verb Tense",
+		"skill_name_kr": "동사 시제 오류",
+		"comment": "동사 시제가 올바르지 않습니다. 문맥에 맞게 올바른 시제가 되도록 added_word가 추가되었습니다.",
+		"example_1": {
+			"before": "The first one names Amanda Junior.",
+			"after": "The first one is named Amanda Junior.",
+			"before_word_info": [
+				{
+					"word": "names",
+					"start_index": 14,
+					"end_index": 19
+				}
+			],
+			"after_word_info": [
+				{
+					"word": "is named",
+					"start_index": 14,
+					"end_index": 22
+				}
+			]
+		},
+		"example_2": {
+			"before": "The city change a lot since I last visited.",
+			"after": "The city has changed a lot since I last visited.",
+			"before_word_info": [
+				{
+					"word": "change",
+					"start_index": 9,
+					"end_index": 15
+				}
+			],
+			"after_word_info": [
+				{
+					"word": "has changed",
+					"start_index": 9,
+					"end_index": 20
+				}
+			]
+		}
+	},
+	"U:VERB:TENSE": {
+		"skill_name_en": "Unnecessary Verb Tense",
+		"skill_name_kr": "동사 시제 오류",
+		"comment": "wrong_word가 필요 없거나 부적절해 보입니다. 불필요하므로 삭제되었습니다.",
+		"example_1": {
+			"before": "She will do it yesterday",
+			"after": "She did it yesterday.",
+			"before_word_info": [
+				{
+					"word": "will do",
+					"start_index": 4,
+					"end_index": 11
+				}
+			],
+			"after_word_info": [
+				{
+					"word": "did",
+					"start_index": 4,
+					"end_index": 7
+				}
+			]
+		},
+		"example_2": {
+			"before": "She has liveed in Paris in the near future.",
+			"after": "She will be living in Paris in the near future.",
+			"before_word_info": [
+				{
+					"word": "has liveed",
+					"start_index": 4,
+					"end_index": 14
+				}
+			],
+			"after_word_info": [
+				{
+					"word": "will be living",
+					"start_index": 4,
+					"end_index": 18
+				}
+			]
+		}
+	},
+	"R:VERB:TENSE": {
+		"skill_name_en": "Replacing Verb Tense",
+		"skill_name_kr": "동사 시제 오류",
+		"comment": "wrong_word가 어색하거나 모호해 보입니다. 어울리는 단어로 변경되었습니다.",
+		"example_1": {
+			"before": "He was walking home when he meets his old friend.",
+			"after": "He was walking home when he met his old friend.",
+			"before_word_info": [
+				{
+					"word": "meets",
+					"start_index": 28,
+					"end_index": 33
+				}
+			],
+			"after_word_info": [
+				{
+					"word": "met",
+					"start_index": 28,
+					"end_index": 31
+				}
+			]
+		},
+		"example_2": {
+			"before": "I wish I have a million dollar.",
+			"after": "I wish I had a million dollar.",
+			"before_word_info": [
+				{
+					"word": "have",
+					"start_index": 9,
+					"end_index": 13
+				}
+			],
+			"after_word_info": [
+				{
+					"word": "had",
+					"start_index": 9,
+					"end_index": 12
+				}
+			]
+		}
+	},
+	"R:NOUN:NUM": {
+		"skill_name_en": "Replacing Noun Number",
+		"skill_name_kr": "명사 수 오류",
+		"comment": "wrong_word의 명사의 수가 올바르지 않습니다. added_word으로 올바르게 변경되었습니다.",
+		"example_1": {
+			"before": "Why are book so common and cheap today?",
+			"after": "Why are books so common and cheap today?",
+			"before_word_info": [
+				{
+					"word": "book",
+					"start_index": 8,
+					"end_index": 12
+				}
+			],
+			"after_word_info": [
+				{
+					"word": "books",
+					"start_index": 8,
+					"end_index": 13
+				}
+			]
+		},
+		"example_2": {
+			"before": "Those house were all built in the 1950s.",
+			"after": "Those houses were all built in the 1950s.",
+			"before_word_info": [
+				{
+					"word": "house",
+					"start_index": 6,
+					"end_index": 11
+				}
+			],
+			"after_word_info": [
+				{
+					"word": "houses",
+					"start_index": 6,
+					"end_index": 12
+				}
+			]
+		}
+	}
+}
